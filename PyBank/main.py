@@ -96,7 +96,7 @@ with open(output_path, 'w', newline='') as outfile:
     csvwriter = csv.writer(outfile)
 
     for line in analysis:
-        # If a blank/empty row, write it manually 
+        # If a blank/empty row, write it manually as writing the line creates "" in the file
         if line[0] == "":
             csvwriter.writerow("")
         else:

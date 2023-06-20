@@ -1,4 +1,4 @@
-# python-challenge
+# Python Challenge
 
 The following files are located in this repo
 
